@@ -43,9 +43,9 @@ export const Home = () => {
             />    
             </h1>
             <div className='social-media-links'>
-              <a href="https://instagram.com/matheuz.w" target="_blank"><FaInstagram/></a> 
-              <a href="https://github.com/matheuzcode" target="_blank"><FaGithub/></a> 
-              <a href="https://www.linkedin.com/in/matheusmonteiro23/" target="_blank"><FaLinkedin/></a> 
+              <a href="https://instagram.com/matheuz.w" target="_blank"  rel="noreferrer"><FaInstagram/></a> 
+              <a href="https://github.com/matheuzcode" target="_blank"  rel="noreferrer"><FaGithub/></a> 
+              <a href="https://www.linkedin.com/in/matheusmonteiro23/" target="_blank" rel="noreferrer"><FaLinkedin/></a> 
             </div>
             <div className='home-description'>
               I love learning new things every day, creating and listening to music 🚀

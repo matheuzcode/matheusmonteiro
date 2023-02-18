@@ -28,9 +28,9 @@ export const Footer = () => {
 				<div className='medias'>
 					<div className='mediastitle'>Get in touch</div>
 					<div className='mediaslogo'>
-						<a href="https://instagram.com/matheuz.w" target="_blank"><FaInstagram/></a> 
-              			<a href="https://github.com/matheuzcode" target="_blank"><FaGithub/></a> 
-              			<a href="https://www.linkedin.com/in/matheusmonteiro23/" target="_blank"><FaLinkedin/></a>
+						<a href="https://instagram.com/matheuz.w" target="_blank" rel="noreferrer"><FaInstagram/></a> 
+              			<a href="https://github.com/matheuzcode" target="_blank" rel="noreferrer"><FaGithub/></a> 
+              			<a href="https://www.linkedin.com/in/matheusmonteiro23/" target="_blank" rel="noreferrer"><FaLinkedin/></a>
 					</div>		
 				</div>
 		 	</div>										
