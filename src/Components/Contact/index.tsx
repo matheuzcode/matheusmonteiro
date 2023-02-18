@@ -41,19 +41,19 @@ export const Contact = () => {
 			 	<div className='formbox'>
 			 		<input
 					className='input'
-					tabindex="0"  
+					tabIndex="0"  
 					type='text'
 					placeholder='Digite seu nome'
-					onChange={(e) => setName(e.target.value)}
+					onChange={(e: ChangeEvent<HTMLInputElement>) => setName(e.target.value)}
 					value={name}
 					/>
 
 					<input
 						className='input'
-						tabindex="0"  
+						tabIndex="0"  
 						type='email'
 						placeholder='Digite seu email'
-						onChange={(e) => setEmail(e.target.value)}
+						onChange={(e: ChangeEvent<HTMLInputElement>) => setEmail(e.target.value)}
 						value={email}
 					/>
 
@@ -61,7 +61,7 @@ export const Contact = () => {
 						className='textarea' 
 						type='text'
 						placeholder='Digite sua mensagem...'
-						onChange={(e) => setMessage(e.target.value)}
+						onChange={(e: ChangeEvent<HTMLInputElement>) => setMessage(e.target.value)}
 						value={message}
 					/>
 			 	</div>
