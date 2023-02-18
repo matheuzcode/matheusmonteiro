@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, FormEvent } from 'react';
 import * as C from './styles'
 import emailjs from '@emailjs/browser'
 
@@ -8,7 +8,7 @@ export const Contact = () => {
 	const [email, setEmail] = useState('')
 	const [message, setMessage] = useState('')
 
-	const sendEmail = (e) => {
+	const sendEmail = (e: FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 
 		if(name === '' || email === '' || message === '') {
