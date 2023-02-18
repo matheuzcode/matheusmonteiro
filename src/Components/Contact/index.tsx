@@ -57,7 +57,6 @@ export const Contact = () => {
 
 					<textarea
 						className='textarea' 
-						type='text'
 						placeholder='Digite sua mensagem...'
 						onChange={e => setMessage(e.target.value)}
 						value={message}
