@@ -10,7 +10,7 @@ export const Projects = () => {
 	return (
 		<C.Container id="projects">
 			<div className='div-name'><div className='underline'>Projects</div></div>
-			
+
 			<div className='div-skillsimg'>
 				<div className='div-flex'>
 					<div className='div-projectname'>Rare Clothing</div>
@@ -27,8 +27,8 @@ export const Projects = () => {
 						</ul>		
 					</div>
 					<div className='div-buttons'>
-						<a href="https://matheuzcode.github.io/expense-tracker/" target="_blank" rel="noreferrer">Live Demo</a>
-						<a href="https://github.com/matheuzcode/expense-tracker" target="_blank" rel="noreferrer">Github Code</a>
+						<a rel="noreferrer">Live Demo</a>
+						<a href="https://github.com/matheuzcode/rare-clothing" target="_blank" rel="noreferrer">Github Code</a>
 					</div>
 					<div className='div-projectdesc'>Rare Clothing is a clothing eccomerce project. In the development of the front-end, redux toolkit was used to store the states so that the shopping cart can be viewed at the same time by all components in a shared way. In the back-end, Strapi was used to create the REST API for the store items, redux persist to store the data when updating the page and the Stripe platform to make the payment.</div>	
 				</div>
@@ -77,7 +77,7 @@ export const Projects = () => {
 						</ul>		
 					</div>
 					<div className='div-buttons'>
-						<a href="" target="_blank" rel="noreferrer">Live Demo</a>
+						<a rel="noreferrer">Live Demo</a>
 						<a href="https://github.com/matheuzcode/react-shoppingcart" target="_blank" rel="noreferrer">Github Code</a>
 					</div>
 					<div className='div-projectdesc'>Shopping cart. One of the main tools of e-commerce sites. It is a secondary application that allows the customer to add several desired items and still continue browsing the site.</div>	
