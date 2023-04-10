@@ -4,11 +4,40 @@ import img1 from '../../assets/img1.png';
 import img2 from '../../assets/img2.png';
 import img3 from '../../assets/img3.png';
 import img4 from '../../assets/img4.png';
+import img5 from '../../assets/img5.png';
 
 export const Projects = () => {
 	return (
 		<C.Container id="projects">
 			<div className='div-name'><div className='underline'>Projects</div></div>
+			
+			<div className='div-skillsimg'>
+				<div className='div-flex'>
+					<div className='div-projectname'>Rare Clothing</div>
+					<div className='div-skillstable'>
+						<ul>
+							<li>HTML</li>
+							<li>SCSS</li>
+							<li>JavaScript</li>
+							<li>React</li>
+							<li>Redux Toolkit</li>
+							<li>Redux Persist</li>
+							<li>Strapi</li>
+							<li>Stripe</li>	
+						</ul>		
+					</div>
+					<div className='div-buttons'>
+						<a href="https://matheuzcode.github.io/expense-tracker/" target="_blank" rel="noreferrer">Live Demo</a>
+						<a href="https://github.com/matheuzcode/expense-tracker" target="_blank" rel="noreferrer">Github Code</a>
+					</div>
+					<div className='div-projectdesc'>Rare Clothing is a clothing eccomerce project. In the development of the front-end, redux toolkit was used to store the states so that the shopping cart can be viewed at the same time by all components in a shared way. In the back-end, Strapi was used to create the REST API for the store items, redux persist to store the data when updating the page and the Stripe platform to make the payment.</div>	
+				</div>
+				<div className='img'>
+					<img src={img5} alt="" />	
+				</div>	
+					
+			</div>
+
 			<div className='div-skillsimg'>
 				<div className='div-flex'>
 					<div className='div-projectname'>Whatsapp Clone</div>
