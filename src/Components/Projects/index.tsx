@@ -30,7 +30,7 @@ export const Projects = () => {
 						<a rel="noreferrer">Live Demo</a>
 						<a href="https://github.com/matheuzcode/rare-clothing" target="_blank" rel="noreferrer">Github Code</a>
 					</div>
-					<div className='div-projectdesc'>Rare Clothing is a clothing eccomerce project. In the development of the front-end, redux toolkit was used to store the states so that the shopping cart can be viewed at the same time by all components in a shared way. In the back-end, Strapi was used to create the REST API for the store items, redux persist to store the data when updating the page and the Stripe platform to make the payment.</div>	
+					<div className='div-projectdesc'>Rare Clothing is an e-commerce for men's and women's clothing. In the development of the front-end, redux toolkit was used to store the states so that the shopping cart can be viewed at the same time by all components in a shared way. In the back-end, Strapi was used to create the REST API for the store items, redux persist to store the data when updating the page and the Stripe platform to make the payment.</div>	
 				</div>
 				<div className='img'>
 					<img src={img5} alt="" />	
