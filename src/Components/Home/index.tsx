@@ -45,7 +45,7 @@ export const Home = () => {
             <div className='social-media-links'>
               <a href="https://instagram.com/matheuz.w" target="_blank"  rel="noreferrer"><FaInstagram/></a> 
               <a href="https://github.com/matheuzcode" target="_blank"  rel="noreferrer"><FaGithub/></a> 
-              <a href="https://www.linkedin.com/in/matheusmonteiro23/" target="_blank" rel="noreferrer"><FaLinkedin/></a> 
+              <a href="https://www.linkedin.com/in/matheusmonteirodeveloper/" target="_blank" rel="noreferrer"><FaLinkedin/></a> 
             </div>
             <div className='home-description'>
               I love learning new things every day, creating and listening to music 🚀
